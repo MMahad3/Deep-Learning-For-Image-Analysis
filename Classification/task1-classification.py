@@ -70,7 +70,7 @@ model.fc = nn.Linear(model.fc.in_features, 20)
 model = model.to(device)
 
 # Loss and Optimizer
-criterion = nn.BCEWithLogitsLoss()  # Combines Sigmoid + BCELoss
+criterion = nn.BCEWithLogitsLoss()  
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 # Training
