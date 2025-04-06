@@ -1,0 +1,46 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_007544.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>374</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cow</name>
+		<pose>Frontal</pose>
+		<truncated>0</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>72.4651</xmin>
+			<ymin>251.4535</ymin>
+			<xmax>123.0465</xmax>
+			<ymax>332.2674</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+	<object>
+		<name>cow</name>
+		<pose>Frontal</pose>
+		<truncated>0</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>159.6744</xmin>
+			<ymin>243.8953</ymin>
+			<xmax>198.0465</xmax>
+			<ymax>299.7093</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

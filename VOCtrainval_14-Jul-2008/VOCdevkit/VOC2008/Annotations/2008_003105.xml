@@ -1,0 +1,33 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_003105.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>500</width>
+		<height>340</height>
+		<depth>3</depth>
+	</size>
+	<segmented>1</segmented>
+	<object>
+		<name>train</name>
+		<pose>SideFaceLeft</pose>
+		<truncated>0</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>76.895</xmin>
+			<ymin>94.5627</ymin>
+			<xmax>455.9038</xmax>
+			<ymax>310.3061</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

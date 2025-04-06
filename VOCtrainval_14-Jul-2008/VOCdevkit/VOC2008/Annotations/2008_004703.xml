@@ -1,0 +1,46 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_004703.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>motorbike</name>
+		<pose>SideFaceLeft</pose>
+		<truncated>1</truncated>
+		<occluded>1</occluded>
+		<bndbox>
+			<xmin>0</xmin>
+			<ymin>136.7515</ymin>
+			<xmax>157.7096</xmax>
+			<ymax>249.9251</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>SideFaceLeft</pose>
+		<truncated>0</truncated>
+		<occluded>1</occluded>
+		<bndbox>
+			<xmin>30.6138</xmin>
+			<ymin>95.4341</ymin>
+			<xmax>122.6796</xmax>
+			<ymax>218.488</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

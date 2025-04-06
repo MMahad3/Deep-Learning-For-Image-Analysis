@@ -1,0 +1,46 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_000857.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sofa</name>
+		<pose>Frontal</pose>
+		<truncated>1</truncated>
+		<occluded>1</occluded>
+		<bndbox>
+			<xmin>309.2351</xmin>
+			<ymin>131.0634</ymin>
+			<xmax>497.6679</xmax>
+			<ymax>256.0634</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+	<object>
+		<name>pottedplant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<occluded>1</occluded>
+		<bndbox>
+			<xmin>277.5187</xmin>
+			<ymin>94.6828</ymin>
+			<xmax>359.6082</xmax>
+			<ymax>162.7799</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

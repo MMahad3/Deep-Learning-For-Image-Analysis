@@ -1,0 +1,46 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_008323.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>1</segmented>
+	<object>
+		<name>sheep</name>
+		<pose>SideFaceRight</pose>
+		<truncated>0</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>106.3375</xmin>
+			<ymin>132.29</ymin>
+			<xmax>412.7138</xmax>
+			<ymax>332.1345</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+	<object>
+		<name>sheep</name>
+		<pose>SideFaceRight</pose>
+		<truncated>0</truncated>
+		<occluded>1</occluded>
+		<bndbox>
+			<xmin>187.5972</xmin>
+			<ymin>70.4705</ymin>
+			<xmax>322.9005</xmax>
+			<ymax>168.4487</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

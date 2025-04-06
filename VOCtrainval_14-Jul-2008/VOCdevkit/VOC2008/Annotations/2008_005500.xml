@@ -1,0 +1,46 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_005500.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>375</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sofa</name>
+		<pose>Frontal</pose>
+		<truncated>1</truncated>
+		<occluded>1</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>140.4192</ymin>
+			<xmax>374.6257</xmax>
+			<ymax>500</ymax>
+		</bndbox>
+		<difficult>1</difficult>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Frontal</pose>
+		<truncated>0</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>110.5539</xmin>
+			<ymin>160.7784</ymin>
+			<xmax>253.6677</xmax>
+			<ymax>466.7665</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

@@ -1,0 +1,33 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_001934.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>182</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>horse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>26.479</xmin>
+			<ymin>23.8024</ymin>
+			<xmax>152.2275</xmax>
+			<ymax>222.9042</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

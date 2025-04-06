@@ -1,0 +1,33 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_003744.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aeroplane</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>0</xmin>
+			<ymin>68.0389</ymin>
+			<xmax>500</xmax>
+			<ymax>375</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

@@ -1,0 +1,46 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_008180.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>500</width>
+		<height>333</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aeroplane</name>
+		<pose>SideFaceLeft</pose>
+		<truncated>0</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>178.73</xmin>
+			<ymin>111.8819</ymin>
+			<xmax>412.3002</xmax>
+			<ymax>193.143</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+	<object>
+		<name>aeroplane</name>
+		<pose>SideFaceLeft</pose>
+		<truncated>0</truncated>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>119.6714</xmin>
+			<ymin>175.381</ymin>
+			<xmax>341.6963</xmax>
+			<ymax>252.6456</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>

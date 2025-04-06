@@ -1,0 +1,46 @@
+<annotation>
+	<folder>VOC2008</folder>
+	<filename>2008_005734.jpg</filename>
+	<source>
+		<database>The VOC2008 Database</database>
+		<annotation>PASCAL VOC2008</annotation>
+		<image>flickr</image>
+		<flickrid>n/a</flickrid>
+	</source>
+	<owner>
+		<flickrid>n/a</flickrid>
+		<name>n/a</name>
+	</owner>
+	<size>
+		<width>500</width>
+		<height>374</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bird</name>
+		<pose>SideFaceRight</pose>
+		<truncated>0</truncated>
+		<occluded>1</occluded>
+		<bndbox>
+			<xmin>199.083</xmin>
+			<ymin>69.1832</ymin>
+			<xmax>287.2173</xmax>
+			<ymax>120.3284</ymax>
+		</bndbox>
+		<difficult>1</difficult>
+	</object>
+	<object>
+		<name>bird</name>
+		<pose>Frontal</pose>
+		<truncated>0</truncated>
+		<occluded>1</occluded>
+		<bndbox>
+			<xmin>227.3956</xmin>
+			<ymin>151.8376</ymin>
+			<xmax>329.6862</xmax>
+			<ymax>282.4408</ymax>
+		</bndbox>
+		<difficult>0</difficult>
+	</object>
+</annotation>
