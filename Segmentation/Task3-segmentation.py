@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
 
-# Define image transformations (resize and normalize for DeepLabV3)
+# Define image transformations 
 input_transforms = transforms.Compose([
     transforms.Resize((256, 256)),
     transforms.ToTensor(),
@@ -38,7 +38,7 @@ dataset = VOCSegmentation(root=voc_root, year='2008', image_set='val',
 dataloader = DataLoader(dataset, batch_size=4, shuffle=False, num_workers=2)
 
 
-# Load the pre-trained DeepLabV3 model with a ResNet backbone
+# Load the pre-trained DeepLabV3 model
 model = models.segmentation.deeplabv3_resnet101(pretrained=True)
 model = model.to("cuda" if torch.cuda.is_available() else "cpu")
 model.eval() 
@@ -78,7 +78,7 @@ for images, targets in dataloader:
     with torch.no_grad():
         outputs = model(images)['out']  
     
-    # Get the predicted segmentation mask 
+    
     pred_mask = torch.argmax(outputs, dim=1)  
     
     # Visualize the result 
@@ -86,7 +86,7 @@ for images, targets in dataloader:
     break  
 
 
-# Assuming 'pred_mask' and 'targets' are your predicted and actual segmentation masks
+
 
 def calculate_metrics(pred_mask, targets, num_classes):
     # Flatten the masks
