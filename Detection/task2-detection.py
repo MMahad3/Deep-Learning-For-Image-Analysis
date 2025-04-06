@@ -34,7 +34,7 @@ class VOCDataset(Dataset):
         labels = []
         for obj in tree.findall("object"):
             label = obj.find("name").text
-            labels.append(self.class_names.index(label) + 1)  # Background = 0
+            labels.append(self.class_names.index(label) + 1)  
             bbox = obj.find("bndbox")
             xmin = float(bbox.find("xmin").text)
         ymin = float(bbox.find("ymin").text)
@@ -42,7 +42,7 @@ class VOCDataset(Dataset):
         ymax = float(bbox.find("ymax").text)
         
         # Optionally round them to nearest integer, or cast to int directly
-        box = [round(xmin), round(ymin), round(xmax), round(ymax)]  # You can replace round() with int() if you prefer
+        box = [round(xmin), round(ymin), round(xmax), round(ymax)]  
         
         boxes.append(box)
 
@@ -129,7 +129,7 @@ def evaluate_model(model, val_loader, device):
 
 # Main Function
 def main():
-    root = r"C:\FAST UNIVERSITY\8th semester\DLP\DLP MID 2\TASK 1-2-3\VOCtrainval_14-Jul-2008\VOCdevkit\VOC2008"  # Update if your folder name is different
+    root = r"C:\FAST UNIVERSITY\8th semester\DLP\DLP MID 2\TASK 1-2-3\VOCtrainval_14-Jul-2008\VOCdevkit\VOC2008" 
     num_classes = 21  # 20 classes + background
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -148,8 +148,7 @@ def main():
     # Evaluate the model after training
     evaluate_model(model, val_loader, device)
 
-    # Optionally load the model and continue evaluation or inference:
-    # model.load_state_dict(torch.load(model_save_path))
+    
 
 if __name__ == "__main__":
     main()
