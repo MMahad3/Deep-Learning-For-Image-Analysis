@@ -5,7 +5,7 @@ import torch
 from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
 
-# Path to the folder containing all *_trainval.txt files
+
 main_path = r"C:\FAST UNIVERSITY\8th semester\DLP\DLP MID 2\TASK 1-2-3\VOCtrainval_14-Jul-2008\VOCdevkit\VOC2008\ImageSets\Main"
 
 # List of 20 VOC classes
